@@ -20,7 +20,7 @@
     display: table;
   }
 
-.nav-wrapper {
+.nav-wrapper, .page-footer {
     background-color: #051821;
 }
 
@@ -38,8 +38,29 @@
       width: 100%;
       margin-left: 0%;
     }
+    .responsive-img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px;
+      width: 50%;
+    }
+    .grey-text {
+      font-size: 17px;
+    }
+    .blue-text {
+      font-size: 34px;
+    }
   }
 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}  
 /* body {
     background-color: #051821;
 } */

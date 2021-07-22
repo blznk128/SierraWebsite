@@ -8,7 +8,11 @@
     
   }
   
-  /* Clearfix (clear floats) */
+  .grid-item { 
+    width: 400px; 
+    margin-left: 10%;
+  }
+  
   .row::after {
     content: "";
     clear: both;
@@ -16,6 +20,25 @@
   }
 
 .nav-wrapper {
-    background-color: #9aa297;
+    background-color: #051821;
 }
 
+.details {
+    background-color: #051821;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    position: relative;
+    top: -25px;
+    
+}
+
+/* @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  } */
+
+/* body {
+    background-color: #051821;
+} */
+/* center image looks centered with margin top of 22% */

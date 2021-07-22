@@ -9,10 +9,10 @@
   }
   
   .grid-item { 
-    width: 400px; 
+    width: 300px; 
     margin-left: 10%;
   }
-  
+
   .row::after {
     content: "";
     clear: both;

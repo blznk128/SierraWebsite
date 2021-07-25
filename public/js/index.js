@@ -7,3 +7,13 @@ $(document).ready(function(){
     itemSelector: '.grid-item',
     columnWidth: 1
   });
+
+  jQuery(document).ready(function(){
+    var $container = $('#container');
+    $container.imagesLoaded(function(){
+        $container.masonry({
+        itemsSelector: '.thumbnail',
+        isFitWidth: true
+        }).resize();
+    }); 
+    })

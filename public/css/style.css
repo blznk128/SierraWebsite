@@ -2,12 +2,6 @@
     box-sizing: border-box;
   }
   
-  .column {
-    float: left;
-    width: 33.33%;
-    
-  }
-  
   .grid-item { 
     width: 500px; 
     margin-left: 5%;
@@ -33,25 +27,9 @@
     
 }
 
-@media screen and (max-width: 500px) {
-    .grid-item {
-      width: 100%;
-      margin-left: 0%;
-    }
-    .responsive-img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 10px;
-      width: 50%;
-    }
-    .grey-text {
-      font-size: 17px;
-    }
-    .blue-text {
-      font-size: 34px;
-    }
-  }
+#bannerImage {
+  width: 100%;
+}
 
 .fa {
   padding: 20px;
@@ -61,6 +39,89 @@
   text-decoration: none;
   margin: 5px 2px;
 }  
+
+/* #logoRow {
+  background: url(https://images.fabric.com/images/605/605/0550609.jpg);
+} */
+
+@media screen and (max-width: 500px) {
+  .grid-item {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .responsive-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 50%;
+  }
+  #bannerImage {
+    width: 100%;
+    margin-top: 0%;
+
+  }
+  .grey-text {
+    font-size: 17px;
+  }
+  .blue-text {
+    font-size: 34px;
+  }
+  #numberLarger {
+    font-size: 25px!important;
+  }
+  
+}
+
+#rightPic {
+  height: 476px;
+}
+
+@media screen and (max-width: 1920px) {
+  #rightPic {
+    height: 476px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  #rightPic {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #rightPic {
+    height: 256px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #rightPic {
+    height: 192px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #rightPic {
+    height: 95px;
+    margin-top: 0%;
+    
+  }
+}
+@media screen and (max-width: 450px) {
+  #rightPic {
+    height: 108px;
+    margin-top: 0%;
+    
+  }
+}
+@media screen and (max-width: 400px) {
+  #rightPic {
+    height: 99px;
+    margin-top: 0%;
+    
+  }
+}
 /* body {
     background-color: #051821;
 } */

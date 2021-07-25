@@ -5,5 +5,5 @@ $(document).ready(function(){
   $('.grid').masonry({
     // options
     itemSelector: '.grid-item',
-    columnWidth: 4
+    columnWidth: 1
   });
